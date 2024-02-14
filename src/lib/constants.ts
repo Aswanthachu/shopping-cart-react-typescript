@@ -1,13 +1,19 @@
+import BannerImage from "../assets/images/BannerImg.png";
+
 export interface NavItem {
   key: number;
   title: string;
   path: string;
 }
 
-export interface productItem{
-  key:number,
-  productname:string,
-  link:string
+export interface productItem {
+  key: number;
+  productname: string;
+  link: string;
+}
+
+export interface slideItem {
+  image: string;
 }
 
 export const navItems: NavItem[] = [
@@ -33,60 +39,78 @@ export const navItems: NavItem[] = [
   },
 ];
 
-export const productsList : productItem[]=[
+export const productsList: productItem[] = [
   {
-    key:0,
-    productname:"TEXT PRODUCT",
-    link:"/product"
+    key: 0,
+    productname: "TEXT PRODUCT",
+    link: "/product",
   },
   {
-    key:1,
-    productname:"TEXT PRODUCT",
-    link:"/product"
+    key: 1,
+    productname: "TEXT PRODUCT",
+    link: "/product",
   },
   {
-    key:2,
-    productname:"TEXT PRODUCT",
-    link:"/product"
+    key: 2,
+    productname: "TEXT PRODUCT",
+    link: "/product",
   },
   {
-    key:3,
-    productname:"TEXT PRODUCT",
-    link:"/product"
+    key: 3,
+    productname: "TEXT PRODUCT",
+    link: "/product",
   },
   {
-    key:4,
-    productname:"TEXT PRODUCT",
-    link:"/product"
+    key: 4,
+    productname: "TEXT PRODUCT",
+    link: "/product",
   },
   {
-    key:5,
-    productname:"TEXT PRODUCT",
-    link:"/product"
+    key: 5,
+    productname: "TEXT PRODUCT",
+    link: "/product",
   },
   {
-    key:6,
-    productname:"TEXT PRODUCT",
-    link:"/product"
+    key: 6,
+    productname: "TEXT PRODUCT",
+    link: "/product",
   },
   {
-    key:7,
-    productname:"TEXT PRODUCT",
-    link:"/product"
+    key: 7,
+    productname: "TEXT PRODUCT",
+    link: "/product",
   },
   {
-    key:8,
-    productname:"TEXT PRODUCT",
-    link:"/product"
+    key: 8,
+    productname: "TEXT PRODUCT",
+    link: "/product",
   },
   {
-    key:9,
-    productname:"TEXT PRODUCT",
-    link:"/product"
+    key: 9,
+    productname: "TEXT PRODUCT",
+    link: "/product",
   },
   {
-    key:10,
-    productname:"TEXT PRODUCT",
-    link:"/product"
+    key: 10,
+    productname: "TEXT PRODUCT",
+    link: "/product",
   },
-]
+];
+
+export const slides: slideItem[] = [
+  {
+    image: BannerImage,
+  },
+  {
+    image: BannerImage,
+  },
+  {
+    image: BannerImage,
+  },
+  {
+    image: BannerImage,
+  },
+  {
+    image: BannerImage,
+  },
+];
