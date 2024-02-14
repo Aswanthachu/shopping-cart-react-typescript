@@ -9,7 +9,7 @@ export default {
       fontFamily:{
         mons:["Montserrat","sans"]
       }
-    },
+    }
   },
   plugins: [],
 }

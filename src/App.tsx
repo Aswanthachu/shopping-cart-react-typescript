@@ -1,12 +1,12 @@
-
+import { NavBar, ProductList } from "./components";
 
 function App() {
-
   return (
-    <>
-      <h1 className="text-red-500 font-mons">Hello</h1>
-    </>
-  )
+    <section>
+      <NavBar />
+      <ProductList />
+    </section>
+  );
 }
 
-export default App
+export default App;
