@@ -15,7 +15,7 @@ const NavBar = () => {
       </h1>
       <ul className="items-end justify-between gap-10 w-4/12 h-full mt-3 hidden lg:flex">
         {navItems.map((item: NavItem) => (
-          <li className="text-2xl font-bold">{item.title}</li>
+          <li key={item.key} className="text-2xl font-bold">{item.title}</li>
         ))}
       </ul>
       <div className="w-4/12 px-10 mt-2 hidden lg:block">
