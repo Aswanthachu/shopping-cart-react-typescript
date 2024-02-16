@@ -20,7 +20,8 @@ const Carousel = () => {
   };
 
   return (
-    <div className="h-full w-full relative ">
+    <div className="min-h-[398px] lg:min-h-[597px] bg-gray-800  relative  lg:mb-0">
+      
       {slides.map((slide: slideItem, index: number) => (
         <div
           key={index}
@@ -28,17 +29,17 @@ const Carousel = () => {
             index === currentSlide
               ? "opacity-100"
               : "opacity-0 pointer-events-none",
-            "absolute top-0 left-0 w-full max-h-full  transition-opacity duration-500 bg-red-600 "
+            "absolute top-0 left-0 w-full   transition-opacity duration-500 bg-red-600 "
           )}
         >
           <img
             src={slide.image}
             alt="slide"
-            className="object-cover h-full w-full max-h-[555px]"
+            className=" h-full w-full object-cover min-h-[398px] lg:min-h-[597px]"
           />
         </div>
       ))}
-      <div className="absolute  left-1/2 transform -translate-x-1/2 bottom-[5%] flex space-x-2">
+      <div className="absolute left-1/2 top-[80%] transorm -translate-x-1/2 translate-y-[90%]  flex space-x-2">
         {slides.map((_: any, index: number) => (
           <button
             key={index}
