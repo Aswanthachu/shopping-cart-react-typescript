@@ -8,8 +8,8 @@ function App() {
       <ProductList />
       <Banner />
       <div className=" mt-[400px] lg:mt-0 min-h-fit py-5 font-mons space-y-10 ">
-        <div>
-          <h1 className=" px-5 md:px-10 lg:px-16 text-3xl lg:text-4xl font-bold lg:font-semibold font-mons">
+        <div className="px-5 md:px-10 lg:px-16 flex justify-between flex-col lg:flex-row space-y-3">
+          <h1 className=" text-3xl lg:text-4xl font-bold lg:font-semibold font-mons">
             Featured Products
           </h1>
           <SlideButtons />

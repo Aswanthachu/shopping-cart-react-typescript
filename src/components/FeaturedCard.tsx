@@ -10,7 +10,7 @@ const FeaturedCard = () => {
         </span>
         <FavoriteIcon />
         <Button
-          className="absolute top-1/2 left-1/2 transform transition duration-700 ease-in-out -translate-x-1/2 -translate-y-1/2 z-40 bg-black border-2 border-white rounded-full text-white  px-8 py-3 text-lg font-semibold items-center gap-2 my-20  text-center hidden group-hover:flex"
+          className="absolute top-1/2 left-1/2 transform transition duration-700 ease-in-out -translate-x-1/2 -translate-y-1/2 z-40 bg-black border-2 border-white rounded-full text-white px-4 lg:px-8 py-1 lg:py-3 text-xs min-w-fit lg:text-lg font-semibold items-center gap-2 my-5 lg:my-20  text-center hidden group-hover:flex"
           text="View Now"
           type="button"
           iconColor="fill-white"
@@ -24,14 +24,14 @@ const FeaturedCard = () => {
       <div className="border-x-2 border-b-2  border-black flex flex-col p-5 space-y-3">
         <div className="flex items-center gap-2">
           <div className="h-3 w-3 rounded-full bg-[#7B61FF]" />
-          <p className="font-bold text-sm">MEALBOXES</p>
+          <p className="font-bold text-xs lg:text-sm">MEALBOXES</p>
         </div>
-        <p className="font-semibold text-2xl">Rakhi inspired</p>
-        <p className="font-medium text-xl">Description of the product</p>
+        <p className="font-bold lg:font-semibold text-lg lg:text-2xl">Rakhi inspired</p>
+        <p className="font-medium text-md lg:text-xl">Description of the product</p>
         <StarRating />
         <div className="flex gap-2">
-          <p className="text-[#969696] text-xl line-through">₹900.00</p>
-          <p className="text-black font-bold text-2xl">₹850.00 </p>
+          <p className="text-[#969696] text-lg lg:text-xl line-through">₹900.00</p>
+          <p className="text-black font-bold text-xl lg:text-2xl">₹850.00 </p>
         </div>
       </div>
     </div>
