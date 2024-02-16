@@ -7,3 +7,4 @@ export { default as StarRating } from "./StarRating";
 export { default as FeaturedCard } from "./FeaturedCard";
 export { default as FavoriteIcon } from "./FavoriteIcon";
 export { default as SlideButtons } from "./SlideButtons";
+export { default as ReviewSection } from "./ReviewSection";

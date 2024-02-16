@@ -1,5 +1,5 @@
 import React from "react";
-import { Banner, FeaturedCard, NavBar, ProductList, SlideButtons } from "./components";
+import { Banner, FeaturedCard, NavBar, ProductList, ReviewSection, SlideButtons } from "./components";
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
         ))}
         </div>
       </div>
+      <ReviewSection />
     </section>
   );
 }

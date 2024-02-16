@@ -3,7 +3,7 @@ import RightArrowIcon from "../assets/svgs/RightArrowIcon";
 
 const SlideButtons = () => {
   return (
-    <div className="space-x-3 flex">
+    <div className="space-x-6 flex">
       <button className="px-3 py-1 bg-white rounded-full border-2 border-white hover:border-black">
         <LeftArrowIcon />
       </button>
