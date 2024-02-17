@@ -22,7 +22,7 @@ const NavBar = () => {
         <div className="flex w-full  px-5 py-1.5 rounded-full border-[1.5px] border-black">
           <input
             placeholder="Search..."
-            className="flex-1 border-none hover:border-none outline-none hover:outline-none placeholder-black placeholder-bold"
+            className="flex-1 border-none hover:border-none outline-none hover:outline-none bg-inherit placeholder-black placeholder-bold"
           />
           <SearchIcon className="w-8" />
         </div>
