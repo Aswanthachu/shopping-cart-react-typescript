@@ -10,4 +10,6 @@ export { default as SlideButtons } from "./SlideButtons";
 export { default as ReviewSection } from "./ReviewSection";
 export { default as OfferSection } from "./OfferSection";
 export { default as GiftCard } from "./GiftCard";
+export { default as InspirationSection } from "./InspirationSection";
+export { default as InspirationCard } from "./InspirationCard";
 

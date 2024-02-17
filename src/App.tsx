@@ -3,6 +3,7 @@ import {
   Banner,
   FeaturedCard,
   GiftCard,
+  InspirationSection,
   NavBar,
   OfferSection,
   ProductList,
@@ -48,6 +49,7 @@ function App() {
           ))}
         </div>
       </div>
+      <InspirationSection />
     </section>
   );
 }
