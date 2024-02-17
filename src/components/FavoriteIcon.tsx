@@ -9,12 +9,12 @@ const FavoriteIcon = () => {
   };
 
   return (
-    <div className={cn(isClicked? "block":"hidden group-hover:block","absolute right-5 top-2 z-40 ")}>
+    <div className={cn(isClicked? "block":"hidden group-hover:block","absolute right-1 lg:right-5 top-1 lg:top-2 z-40 ")}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         className={cn(
-          isClicked ? "fill-red-500 stroke-red-500" : "fill-transparent stroke-black",
+          isClicked ? "fill-red-500 stroke-red-500" : "fill-transparent stroke-2 stroke-black",
           "h-12 w-12 cursor-pointer rounded-full p-2 transition-colors"
         )}
         onClick={toggleHeartColor}

@@ -9,4 +9,5 @@ export { default as FavoriteIcon } from "./FavoriteIcon";
 export { default as SlideButtons } from "./SlideButtons";
 export { default as ReviewSection } from "./ReviewSection";
 export { default as OfferSection } from "./OfferSection";
+export { default as GiftCard } from "./GiftCard";
 

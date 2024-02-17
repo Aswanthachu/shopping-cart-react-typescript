@@ -8,7 +8,7 @@ const StarRating = () => {
   };
 
   return (
-    <div className="flex my-20">
+    <div className="flex">
       {[...Array(5)].map((_, index) => (
         <svg
           key={index}
