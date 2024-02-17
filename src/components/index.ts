@@ -12,4 +12,6 @@ export { default as OfferSection } from "./OfferSection";
 export { default as GiftCard } from "./GiftCard";
 export { default as InspirationSection } from "./InspirationSection";
 export { default as InspirationCard } from "./InspirationCard";
+export { default as FeaturedBanner } from "./FeaturedBanner";
+export { default as Timer } from "./Timer";
 

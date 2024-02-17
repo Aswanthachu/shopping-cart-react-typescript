@@ -1,6 +1,7 @@
 import React from "react";
 import {
   Banner,
+  FeaturedBanner,
   FeaturedCard,
   GiftCard,
   InspirationSection,
@@ -50,6 +51,7 @@ function App() {
         </div>
       </div>
       <InspirationSection />
+      <FeaturedBanner/>
     </section>
   );
 }
