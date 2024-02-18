@@ -11,6 +11,8 @@ import {
   ReviewSection,
   SlideButtons,
 } from "./components";
+import Social from "./assets/images/Social.png";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -51,7 +53,20 @@ function App() {
         </div>
       </div>
       <InspirationSection />
-      <FeaturedBanner/>
+      <FeaturedBanner />
+      <div className="px-5 md:px-10 lg:px-16 my-5 lg:my-20 space-y-5">
+        <h1 className="font-mons text-2xl lg:text-[40px] font-bold lg:font-semibold">
+          LET’S BE FRIENDS @INSTAGRAM_HANDLE
+        </h1>
+        <div className="grid grid-cols-2 gap-3 lg:flex lg:justify-between">
+        {[...Array(6)].map((_, index) => (
+          <React.Fragment key={index}>
+            <img src={Social} alt="social" />
+          </React.Fragment>
+        ))}
+        </div>
+      </div>
+      <Footer />
     </section>
   );
 }
