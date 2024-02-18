@@ -16,8 +16,8 @@ const Banner = () => {
           </p>
         </div>
         <Button
-          className="bg-black rounded-full text-white flex px-8 py-3 text-lg font-semibold items-center gap-2 my-10 lg:my-20  text-center max-w-[150px]"
-          text="Submit"
+          className="bg-black rounded-full text-white flex px-14 py-4 text-xl font-semibold items-center gap-2 my-10 lg:my-20  text-center w-fit"
+          text="Button"
           type="button"
           iconColor="fill-white"
         />
@@ -30,6 +30,7 @@ const Banner = () => {
             <Link
               className="text-black text-xs md:text-sm font-semibold hover:underline hover:scale-110 md:hover:scale-125 flex gap-2 transition duration-500 ease-in-out mt-2 md:mt-0"
               text="VIEW NOW"
+              iconColor="fill-white"
             />
           </div>
         </div>
