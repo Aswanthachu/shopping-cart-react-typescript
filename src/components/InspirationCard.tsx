@@ -16,6 +16,7 @@ const InspirationCard = () => {
         <Link
           className="text-black text-xs  font-semibold group-hover:font-bold group-hover:underline group-hover:scale-110 md:group-hover:scale-110 flex gap-2   mt-2 md:mt-0"
           text="READ MORE"
+          iconColor="fill-black"
         />
       </div>
     </div>
