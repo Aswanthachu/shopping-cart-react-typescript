@@ -38,7 +38,7 @@ const FeaturedBanner = () => {
           <Timer />
           <div className="w-full flex justify-center lg:justify-start">
           <Button
-            className="bg-black rounded-full text-white flex px-12 py-3 lg:py-5 text-lg font-semibold items-center gap-2 my-5 lg:my-20  text-center w-fit"
+            className="bg-black rounded-full text-white flex px-10 py-3 lg:py-5 text-lg font-semibold items-center justify-center gap-2 my-5 lg:my-20  text-center min-w-[200px]"
             text="Shop Now!"
             type="button"
             iconColor="fill-white"
