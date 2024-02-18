@@ -39,7 +39,7 @@ const Carousel = () => {
           />
         </div>
       ))}
-      <div className="absolute left-1/2 top-[80%] transorm -translate-x-1/2 translate-y-[90%]  flex space-x-2">
+      <div className="absolute left-1/2 top-[80%] md:top-[130%] lg:top-[80%] transorm -translate-x-1/2 translate-y-[90%]  flex space-x-2">
         {slides.map((_: any, index: number) => (
           <button
             key={index}

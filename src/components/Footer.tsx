@@ -5,7 +5,7 @@ import ArrowTopIcon from "../assets/svgs/ArrowTopIcon";
 const Footer = () => {
   return (
     <footer className="w-full bg-black text-white font-mons flex flex-col">
-      <div className="w-full flex flex-col lg:flex-row border-b border-white">
+      <div className="w-full flex flex-col lg:flex-row lg:border-b border-white">
         <div className="w-full lg:w-5/12 p-6 lg:px-20 py-10 lg:py-24 space-y-10 border-b-2 lg:border-r-2 border-white">
           <p className="text-[40px] font-semibold leading-snug">
             Subscribe & get{" "}
@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full flex flex-col lg:flex-row">
-        <div className=" w-full lg:w-5/12 p-6 lg:p-20 text-6xl border-t-2 border-r-2 border-white">
+        <div className=" w-full lg:w-5/12 p-6 lg:p-20 text-6xl border-t-2 lg:border-r-2 border-white">
           <p className="font-thin flex">
             <span className="font-bold">TAG</span>CO
             <span className="hidden lg:block">MPANY</span>.

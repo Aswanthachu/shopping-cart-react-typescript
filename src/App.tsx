@@ -20,7 +20,7 @@ function App() {
       <NavBar />
       <ProductList />
       <Banner />
-      <div className=" mt-[400px] lg:mt-0 min-h-fit py-5 font-mons space-y-10 ">
+      <div className=" mt-[400px] md:mt-[500px] lg:mt-0 min-h-fit py-5 font-mons space-y-10 ">
         <div className="px-5 md:px-10 lg:px-16 flex justify-between flex-col lg:flex-row space-y-3">
           <h1 className=" text-3xl lg:text-4xl font-bold lg:font-semibold font-mons">
             Featured Products
@@ -58,7 +58,7 @@ function App() {
         <h1 className="font-mons text-2xl lg:text-[40px] font-bold lg:font-semibold">
           LET’S BE FRIENDS @INSTAGRAM_HANDLE
         </h1>
-        <div className="grid grid-cols-2 gap-3 lg:flex lg:justify-between">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 lg:flex lg:justify-between">
         {[...Array(6)].map((_, index) => (
           <React.Fragment key={index}>
             <img src={Social} alt="social" />

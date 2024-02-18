@@ -18,7 +18,7 @@ const GiftCard = () => {
           <Button
             text="Add to cart"
             type="button"
-            className="bg-white hover:bg-black rounded-full text-black border-2 border-black hover:border-white hover:text-white flex px-8 py-1 lg:min-w-[200px] text-sm my-5 lg:my-0 lg:text-lg font-semibold items-center gap-2   text-center max-w-[250px]"
+            className="bg-white hover:bg-black rounded-full text-black border-2 border-black hover:border-white hover:text-white flex px-8 py-1 lg:min-w-[200px] text-sm my-5 lg:my-0 lg:text-lg font-semibold items-center gap-2   text-center justify-center"
             iconColor="fill-white"
           />
         </div>

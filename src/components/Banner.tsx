@@ -16,7 +16,7 @@ const Banner = () => {
           </p>
         </div>
         <Button
-          className="bg-black rounded-full text-white flex px-14 py-4 text-xl font-semibold items-center gap-2 my-10 lg:my-20  text-center w-fit"
+          className="bg-black rounded-full text-white flex px-16 py-4 text-xl font-semibold items-center gap-2 my-10 lg:my-20  justify-center text-center max-w-[150px]"
           text="Button"
           type="button"
           iconColor="fill-white"
