@@ -1,7 +1,6 @@
 import { Button, Link } from ".";
 import Medias from "../assets/images/Medias.png";
 import ArrowTopIcon from "../assets/svgs/ArrowTopIcon";
-import CopyRightIcon from "../assets/svgs/CopyRightIcon";
 
 const Footer = () => {
   return (
