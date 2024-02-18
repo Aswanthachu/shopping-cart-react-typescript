@@ -29,7 +29,7 @@ const Carousel = () => {
             index === currentSlide
               ? "opacity-100"
               : "opacity-0 pointer-events-none",
-            "absolute top-0 left-0 w-full   transition-opacity duration-500 bg-red-600 "
+            "absolute top-0 left-0 w-full   transition-opacity duration-500"
           )}
         >
           <img
