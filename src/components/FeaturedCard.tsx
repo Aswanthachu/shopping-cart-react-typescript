@@ -10,7 +10,7 @@ const FeaturedCard = () => {
         </span>
         <FavoriteIcon />
         <Button
-          className="absolute top-1/2 left-1/2 transform transition duration-700 ease-in-out -translate-x-1/2 -translate-y-1/2 z-40 bg-black border-2 border-white rounded-full text-white px-4 lg:px-8 py-1 lg:py-3 text-xs min-w-fit lg:text-lg font-semibold items-center gap-2 my-5 lg:my-20  text-center hidden group-hover:flex"
+          className="absolute top-1/2 left-1/2 transform transition duration-700 ease-in-out -translate-x-1/2 -translate-y-1/2 z-40 bg-black border-2 border-white rounded-full text-white px-4 lg:px-8 py-1 lg:py-3 text-[9px] min-w-fit lg:text-lg font-semibold items-center gap-2 my-5 lg:my-20  text-center hidden group-hover:flex"
           text="View Now"
           type="button"
           iconColor="fill-white"

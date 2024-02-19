@@ -19,7 +19,7 @@ const Footer = () => {
             <Button
               text="Submit"
               type="button"
-              className="bg-white hover:bg-black rounded-full text-black border-2 border-black hover:border-white hover:text-white flex px-8 py-3 text-sm my-5 lg:my-0 lg:text-lg font-semibold items-center gap-2   text-center max-w-[200px]"
+              className="bg-white hover:bg-black rounded-full text-black border-2 border-black hover:border-white hover:text-white flex px-8 py-3 text-sm my-5 lg:my-0 lg:text-lg font-semibold items-center gap-2   text-center justify-center max-w-[200px]"
               iconColor="fill-white"
             />
           </div>

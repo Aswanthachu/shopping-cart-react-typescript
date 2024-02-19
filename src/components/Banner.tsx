@@ -30,7 +30,7 @@ const Banner = () => {
             <Link
               className="text-black text-xs md:text-sm font-semibold hover:underline hover:scale-110 md:hover:scale-125 flex gap-2 transition duration-500 ease-in-out mt-2 md:mt-0"
               text="VIEW NOW"
-              iconColor="fill-white"
+              iconColor="fill-black"
             />
           </div>
         </div>
