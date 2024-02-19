@@ -4,7 +4,7 @@ import Quotation from "../assets/images/Quotation.png";
 const ReviewSection = () => {
   return (
     <div className="font-monos flex flex-col px-5 md:px-10 lg:px-16 w-full my-10 lg:my-0">
-      <div className="w-full flex justify-end -mb-10 lg:my-5">
+      <div className="w-full flex justify-end -mb-10 lg:my-5 group">
         <SlideButtons />
       </div>
       <div className=" lg:pl-28 w-full  my-3 flex flex-col lg:flex-row justify-between">
